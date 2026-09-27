@@ -1,0 +1,38 @@
+# ---- Datos de entrada (no son entregables y pesan 331 MB) ----
+nyc-taxi-trip-duration/
+taxi_zones/
+*.csv
+*.zip
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+
+# ---- Entorno y herramientas locales ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# ---- Basura del sistema y bloqueos de Office ----
+.DS_Store
+Thumbs.db
+~$*
+*.bak
+*.tmp
+
+# Enunciado del profesor y respaldos locales
+Proyecto_Retador_Movilidad_Urbana.pdf
+figuras/_previas/
+
+# Guia interna del equipo, no es entregable
+Guia_Defensa_UrbanMove.pdf
+/figuras/
+
+# Figuras: se regeneran ejecutando el cuaderno
+figuras/
+/Guia_Integral_Defensa_UrbanMove.pdf
